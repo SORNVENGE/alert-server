@@ -1,0 +1,11 @@
+# Dart
+.dart_tool/
+signals/build/
+# Node / Cloudflare
+node_modules/
+worker/.wrangler/
+worker/.dev.vars
+# Secrets: never commit keys
+.env
+*.env
+.DS_Store
